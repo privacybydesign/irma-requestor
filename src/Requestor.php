@@ -58,6 +58,7 @@ class Requestor {
 			"sprequest" => [
 				"validity" => 60,
 				"request" => [
+                                        "type" => "disclosing",
 					"content" => $attributes
 				]
 			]
